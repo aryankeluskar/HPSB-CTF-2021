@@ -1,0 +1,50 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HPS-CTF</title>
+    <style>
+        html {
+            padding: 2%;
+            box-sizing: border-box;
+            font-size: 16px;
+            overflow-x: hidden;
+            background-color: #B0EFEB;
+            color: black;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    Ahh you see there are many ways a website can store your data, one of the most common way is localStorage
+    <p>
+        The localStorage read-only property of the window interface allows you to access a Storage object for the Document's origin; the stored data is saved across browser sessions.
+    </p>
+    <p>
+        You can do Inspect Element and use console to access localStorage
+    </p>
+    <p>
+        To read the data, simply enter "localStorage.getItem('myCat');"<br> where myCat is the name of the variable
+    </p>
+    <p>
+        Some more general knowledge: The Caesar Cipher technique is one of the earliest and simplest method of encryption technique. It’s simply a type of substitution cipher, i.e., each letter of a given text is replaced by a letter some fixed number of positions
+        down the alphabet. Lets assume we use Shift of 5 for this entire competetion.
+    </p>
+    <p>
+        my favourite website for encoding and decoding caeser ciphers is https://cryptii.com/pipes/caesar-cipher
+    </p>
+    <p>
+        i wonder if anything is hidden in the localStorage 🤔
+    </p>
+    <img src="guy.png" alt="" style="visibility: hidden;">
+</body>
+<script src="browser.js"></script>
+<script>
+    console.log("hey there, i am sure something is fishy is guy.png, you can find it in the sources tab");
+</script>
+
+</html>
