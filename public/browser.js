@@ -12,5 +12,5 @@ function flag() {
 }
 
 function java_output() {
-    document.cookie = "program output= nW6jt5Xq-ip3f2e"
+    document.cookie = "output= g4h5rk-sZ7vl8Yp"
 }
