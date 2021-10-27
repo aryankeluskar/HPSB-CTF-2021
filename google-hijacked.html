@@ -52,22 +52,22 @@
             */
            public class CTF2021
            {
-               public CTF2021(String in)
-               {        
-                   String out="";        
-                   for(int i = 0; i&#60;in.length(); i++){            
-                       char ch = in.charAt(i);
-                       if(Character.isDigit(ch))
-                           out+=((char)((ch+2)));
-                       else if(Character.isLetter(ch))
-                           out+=((char)((ch-98+100)));
-                       else
-                           out+=ch;            
-                   }
-                   StringBuffer out2 = new StringBuffer(out);
-                   out2=out2.reverse();
-                   System.out.println(out2);
-               }
+            public CTF2021(String in)
+            {        
+                String out="";        
+                for(int i = 0; i&#60;in.length(); i++){            
+                    char ch = in.charAt(i);
+                    if(Character.isDigit(ch))
+                        out+=((char)((ch+2)));
+                    else if(Character.isLetter(ch))
+                        out+=((char)((ch-98+100)));
+                    else
+                        out+=ch;            
+                }
+                StringBuffer out2 = new StringBuffer(out);
+                out2=out2.reverse();
+                System.out.println(out2);
+            }
                
                public static void main(String[] args){
                    String input="<span style="color: green !important;">⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</span>"; //the flag was once here
