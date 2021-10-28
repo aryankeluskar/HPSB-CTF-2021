@@ -1,0 +1,14 @@
+HPSB Tech Treasure Hunt STAGES:
+1 - flag hidden in html (inspect element) (w3lc0me-to-ctf)
+2 - nested binary (binary-letters)
+3 - ascii codes of flag's letters are obtained by rot13 (rotated-numbers)
+4 - caesar-ciphered flag hidden in localstorage (local-caeser)
+5 - 10 tech logo identifications, first letter of each will give next flag (cewymqnlju)
+6 - morse code mp3 is given, which (on decoding) has flag (fun-with-morse)
+7 - a blank screen is given, in the source code-"try asking for hint in the console", on doing console.log(hint), a message will pop up -"call flag()". on putting flag() in console- page will redirect to next stage
+(console-helper)
+8 - a modified version of google.com. that version will have the flag as autocorrect suggestions (google-hijacked)
+9 - java program, to be reverse engineered (string program) 
+(c0d1ng-oV3rh4Ul)
+10 - final flag will be in base 64 of rot13 of above java program output. output will be hidden in cookie. (c00kies-and-b4ses)
+11 - contains a "congrats on coming to last stage, explore around" message, a text box appears with the output of the program (form link was input) on double clicking a red box
